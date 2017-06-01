@@ -2,26 +2,17 @@ body{
   background-color: #fff;
 }
   /*-- top nav --*/
-.topnav {
-      overflow: hidden;
-      height: 50px;
-      border-bottom: 1px black solid;
-}
+  .caption {
+        width:100%;
+        bottom: .3rem;
+        font-
+        position: absolute;
+        background:rgba(0,0,0,0.4);
+    }
 
-.topnav a {
-      float: left;
-      display: block;
-      color: gray;
-      text-align: center;
-      padding: 20px 16px;
-      text-decoration: none;
-      font-size: 12px;
-}
-
-.topnav a:hover {
-      color: #9ADCC6;
-}
-
-
-
- /*-- end top nav --*/
+    .thumbnail {
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;
+    }
