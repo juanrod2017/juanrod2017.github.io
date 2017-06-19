@@ -1,0 +1,277 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  left: 0;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+  /*-- top nav --*/
+  .topnav {
+        overflow: hidden;
+        position: fixed;
+        width:100%;
+        height: 50px;
+        z-index: 1;
+        top:0;
+        border-bottom: 1px black solid;
+        background-color: #fff;
+
+  }
+  .topnav a {
+        float: left;
+        display: block;
+        color: gray;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+        font-size: 12px;
+  }
+
+  .topnav a:hover {
+        color: #9ADCC6;
+  }
+  .left{
+  	float: left;
+  	padding-left: 16%;
+  }
+
+  .right{
+  	float: right;
+  	padding-right: 16%;
+  }
+
+  a {
+      display: block;
+      font-weight:bold;
+      color: black;
+      text-decoration: none;
+  }
+
+  a:hover {
+      color: #9ADCC6;
+  }
+
+ /*-- end top nav --*/
+
+.logo{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  z-index: 0;
+}
+.logo img{
+  display: block;
+  margin: auto;
+  max-width:75%;
+  max-height:auto;
+}
+
+/*.sidebar {
+  display:flex;
+  position:fixed;
+  max-width:auto;
+  height:275px;
+  margin-top: 10px;
+  margin-left: 10%;
+  z-index: 1;
+  top:0;
+  justify-content: flex-end;
+}
+*/
+
+.article{
+  display:flex;
+  color:black;
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 0;
+  flex-direction: column;
+}
+
+.top-article{
+  display:flex;
+  color:black;
+  text-align:left;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  flex-direction: column;
+
+}
+
+.article-title{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  color: #6D9C8D;
+  text-align: center;
+  margin:auto;
+}
+
+.about{
+  display:flex;
+  color:black;
+  text-align:left;
+  margin-top: 75px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.smaller-img{
+  width:50%;
+  height:auto;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+.fitness-img{
+  width:50%;
+  height:50%;
+  float: left;
+  margin: 0px 50px 0px 0px;
+}
+
+.fitness-calendar{
+  display:flex;
+  border: 1px solid;
+  border-color: #9ADCC6;
+  font-size: 12px;
+  color:black;
+  text-align:left;
+  padding: 10px 50px 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.fitness-cal-title{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6D9C8D;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.section-title{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 55px;
+  margin:auto;
+}
+
+.sub-title{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #6D9C8D;
+  text-align: center;
+}
+
+.shadow{
+  display:flex;
+  color:black;
+  background:white;
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #9ADCC6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*-----------------------Sidebar--------------------*/
+.about-box{
+    border: 1px solid;
+    border-color: #9ADCC6;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    padding: 16px 0;
+}
+
+.subscribe-box{
+    border: 1px solid;
+    border-color: #9ADCC6;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 16px 0;
+}
+
+.subscribe-form{
+    max-width:auto;
+    max-height:auto;
+    margin: 10px;
+}
+
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.sharp {
+  border-radius:0;
+}
+
+
+.btn {
+	padding: 14px 24px;
+	border: 0 none;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0 none;
+}
+
+.btn-primary {
+	background: #6D9C8D;
+	color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background: #415D53;
+}
+.btn-primary:active, .btn-primary.active {
+	background: #A3E9D1;
+	box-shadow: none;
+}
+
+
+/*-----------------------Sidebar ends--------------------*/
+img{
+  width:100%;
+  height:auto;
+  margin-bottom:10px;
+}
+
+
+
+
+/*.article > p:nth-child(1){
+	text-align: center;
+  margin:auto;
+}*/
+
+.footer > p:nth-child(1){
+	float:left;
+}
+.footer > p:nth-child(2){
+	float: right;
+}
