@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Towers of Hanoi</title>
+  <link rel="stylesheet" href="css/toh-style.css" />
+</head>
+<body>
+ <div id="content">
+   <p><h1>Tower of Hanoi</h1></p>
+  <div data-stack="1">
+    <div data-block="100"></div>
+    <div data-block="75"></div>
+    <div data-block="50"></div>
+    <div data-block="25"></div>
+  </div>
+
+  <div data-stack="2">
+  </div>
+
+  <div data-stack="3">
+  </div>
+  <div><button id="clear">Reset Game</button></div>
+  <div id="announce-game-won"></div>
+  <p>The goal of the puzzle is to move all the disks from the leftmost<br>
+     peg to the rightmost peg, adhering to the following rules:</p>
+<ul>
+    <li>Move only one disk at a time.  </li>
+      <li>A larger disk may not be placed on top of a smaller disk.  </li>
+      <li>All disks, except the one being moved, must be on a peg.  </li>
+    </ul>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+
+  <script type="text/javascript" src="js/toh-script.js"></script>
+</body>
+</html>
